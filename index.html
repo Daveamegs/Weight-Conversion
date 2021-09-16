@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Conversion App</title>
+</head>
+<body>
+    <!-- INPUTING THE MASS -->
+    <h3>Enter your weight in kilograms</h3>
+    <input type="text" id="weightInKg">
+    <span id="inputUnit">Kilograms</span>
+
+    <!-- OUTPUTING THE RESULTS -->
+    <h3 id="resultsHeader">Results</h3>
+    <input type="text" id="result">
+    <span id="outputUnit">Pounds</span>
+
+    <br>
+    <br>
+    <!-- BUTTONS FOR CALCULATION -->
+    <button type="submit" id="convertToGrams" onClick="convertToGrams()">Convert to grams(g)</button>
+    <button type="submit" id="convertToPounds" onclick="convertToPounds()">Convert to pounds(lb)</button>
+    <button type="submit" id="convertToTonne" onclick="convertToTonnes()">Convert to tonnes(t)</button>
+    <button type="submit" id="convertToMilligrams" onclick="convertToMilligrams()" disabled>Convert to milligrams(mg)</button>
+    <button type="submit" id="convertToMegatonne" onclick="convertToMegaTonnes()" disabled>Convert to megatonne(mt)</button>
+
+    <h3></h3>
+
+    <!-- JAVASCRIPT FILE -->
+    <script src="js/script.js"></script>
+</body>
+</html>
