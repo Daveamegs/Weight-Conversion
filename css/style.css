@@ -1,0 +1,9 @@
+#container{
+    background-color: rgb(127, 64, 185);
+    text-align: center;
+}
+
+.displayNone{
+    /* visibility: hidden; */
+    display: none;
+}
